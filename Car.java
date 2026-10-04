@@ -9,7 +9,7 @@ public class Car {
         System.out.println(c1.name);
         c1.driver();
         Car c2=new Car();
-          System.out.println(c2.name);//which also gives same output
+          System.out.println(c2.name);//which also gives same output and it will avoid by using constructors
          
           System.out.println("After 5 years the price is "+ c1.afterYears(500000));
     }
