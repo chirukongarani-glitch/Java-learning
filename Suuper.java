@@ -12,7 +12,7 @@ public class Suuper {
     {
         System.out.println("My name is:"+firstName+" "+lastName);
     }
-}
+}//super is used when parent and child hava same variables or methods or constructors
 class parent extends Suuper{
 parent(String firstName,int age)
 {
