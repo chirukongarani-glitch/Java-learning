@@ -12,6 +12,10 @@ library l= new library("KRC","Vishkapatnam",book);
 l.libdisplay();
     }
 }
+/*
+In aggregation, the Library class refers to Book objects, 
+but the Book objects can exist independently without depending 
+on the Library object. */
     class books{
         String name;
         String publisher;
