@@ -16,7 +16,7 @@ void work();
     {
         System.out.println("Parents work hard for thier children");
     }
-}
+}//This is Run time polymorphism
 public class children implements parent{
     public void work()
     {
