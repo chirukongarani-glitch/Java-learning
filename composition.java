@@ -22,6 +22,7 @@ h.hshow();
             System.out.println("A room has "+this.length +" length "+this.width+" width");
         }
     }// it is stronger relationship than Aggreation one classhas another class object
+    //if the house is removed the room also cannot exist independently
  class house{
     String loc;
     double price;
