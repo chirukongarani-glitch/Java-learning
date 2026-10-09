@@ -11,14 +11,15 @@ public class wrapper {
 //***Unboxing****
 Double z=908.0;
 double c=b;
-Character m='A';
+Character m='A';//Automatically convert  wrapper object into  primitive object
 char k=m;
 //*** *//
-String s=Integer.toString(123);//convert into String
+String s=Integer.toString(123);//convert any primitive value into String
 String s1=Double.toString(56);
 String s2=Character.toString('*');
 String t=s+s1+" "+s2;
 System.out.println(t);
+//convert   String into  integer
 int A=Integer.parseInt("179");
 double B=Double.parseDouble("39.0");
 char C="Good".charAt(0);
