@@ -5,7 +5,8 @@ public class exception {
     {
 Scanner sc= new Scanner(System.in);
 
-    
+    //checked :IO,SQL,FileNotFound,ClassNotFound Exceptions
+    //unchecked:Arthimetic,ArrayIndexOutOfBound,NumberFormat,NullPointer,IllegalArgument Exceptions
     
 
 try{
