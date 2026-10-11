@@ -8,7 +8,7 @@ Thread tr1=new Thread(new myrunnable("Kat"));
  System.out.println("Game starts");
 tr.start();
 tr1.start();
-try{
+try{//The purpose of join() in Java is to make one thread wait until another thread finishes its execution.
 tr.join();
 tr1.join();
 }
